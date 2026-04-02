@@ -1,0 +1,86 @@
+/* Fundo geral */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffe6f0, #ffd6eb);
+    margin: 0;
+    text-align: center;
+}
+
+/* Título principal */
+h1 {
+    color: #ff4da6;
+    margin-top: 30px;
+}
+
+/* Menu */
+nav {
+    margin: 15px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #9d0e56;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #35051d;
+}
+
+/* Subtítulo */
+h2 {
+    margin-top: 20px;
+}
+
+/* Caixa principal (organiza tudo) */
+.container {
+    background: white;
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(255, 1, 128, 0.3);
+}
+
+/* Textos */
+p {
+    margin: 10px 0;
+}
+
+/* Botão/link "Enviar mensagem" */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #ff4da6, #ff80bf);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.4);
+}
+
+a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255, 105, 180, 0.6);
+}
+
+/* Linha separadora */
+hr {
+    border: 1px solid #ec6767;
+    width: 50%;
+}
+
+footer {
+    background: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    
+}
