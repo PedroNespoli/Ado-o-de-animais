@@ -1,0 +1,125 @@
+/* Fundo da página */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffe6f0, #ffd6eb);
+    margin: 0;
+}
+
+/* Container geral */
+body > * {
+    text-align: center;
+}
+
+/* Título principal */
+h1 {
+    color: #ff4da6;
+    margin-top: 30px;
+}
+
+/* Menu */
+nav {
+    margin: 15px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff4da6;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #e60073;
+}
+
+/* Seções de contato */
+h2 {
+    margin-top: 25px;
+}
+
+/* Caixa branca (organiza conteúdo) */
+h2, p, a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+/* Agrupamento visual */
+p {
+    background: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    margin: 5px auto;
+    box-shadow: 0 2px 8px rgba(255, 105, 180, 0.2);
+}
+
+/* Botão (link estilizado) */
+a[href="#"] {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #ff4da6, #ff80bf);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.4);
+}
+
+a[href="#"]:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255, 105, 180, 0.6);
+}
+
+/* Ajuste para não duplicar visual feio */
+h2 + p {
+    margin-top: 10px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Faz o conteúdo crescer e empurrar o footer */
+main, section {
+    flex: 1;
+}
+
+/* Footer fixado no final */
+footer {
+    background-color: #ff4da6;
+    text-align: center;
+    padding: 15px;
+    color: rgb(217, 16, 170);
+}
+/* Header organizado */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menu no topo em linha */
+nav {
+    margin-top: 10px;
+}
+
+/* Links lado a lado */
+nav a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ff4da6;
+    font-weight: bold;
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover {
+    color: #e60073;
+}
