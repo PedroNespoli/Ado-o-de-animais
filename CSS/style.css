@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff5f9;
+}
+
+/* HEADER */
+header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 2px solid #ffd6e7;
+}
+
+header h1 {
+    color: #ff69b4;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+
+.buttons a {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login {
+    border: 2px solid #ff69b4;
+    color: #ff69b4;
+}
+
+.signup {
+    background: #ff69b4;
+    color: white;
+}
+
+/* HERO */
+.hero {
+    height: 70vh;
+    background: url(.) center/cover;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    color: white;
+}
+
+.hero-text {
+    background: rgba(255, 105, 180, 0.7);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+/* SOBRE */
+.sobre {
+    display: flex;
+    padding: 60px;
+    gap: 40px;
+}
+
+.texto {
+    flex: 1;
+}
+
+.texto h2 {
+    color: #ff69b4;
+    margin-bottom: 15px;
+}
+
+.texto button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.imagem {
+    flex: 1;
+    background: url(.) center/cover;
+    border-radius: 20px;
+}
+
+/* DESTAQUE */
+.destaque {
+    position: relative;
+    height: 300px;
+    background: url() center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 105, 180, 0.7);
+}
+
+.conteudo {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* DENÚNCIA */
+.denuncia {
+    display: flex;
+    padding: 60px;
+    gap: 40px;
+}
+
+.denuncia .imagem {
+   flex-direction: column;
+   justify-content: left;
+}
+
+.denuncia .texto h2 {
+    color: #ff69b4;
+}
+
+/* FOOTER */
+footer {
+    background: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
