@@ -20,7 +20,7 @@ header {
 }
 
 header h1 {
-    color: #ff69b4;
+    color: #ff9d09;
 }
 
 nav a {
@@ -39,12 +39,12 @@ nav a {
 }
 
 .login {
-    border: 2px solid #ff69b4;
-    color: #ff69b4;
+    border: 2px solid #ff9d09;
+    color: #ff9d09;
 }
 
 .signup {
-    background: #ff69b4;
+    background: #ff9d09;
     color: white;
 }
 
@@ -55,11 +55,11 @@ nav a {
     display: flex;
     align-items: center;
     padding-left: 80px;
-    color: white;
+    color: #5c3904;
 }
 
 .hero-text {
-    background: rgba(255, 105, 180, 0.7);
+    background: rgba(247, 227, 115, 0.7);
     padding: 30px;
     border-radius: 20px;
 }
@@ -76,14 +76,14 @@ nav a {
 }
 
 .texto h2 {
-    color: #ff69b4;
+    color: #ff9d09;
     margin-bottom: 15px;
 }
 
 .texto button {
     margin-top: 15px;
     padding: 10px 20px;
-    background: #ff69b4;
+    background: #ff9d09;
     color: white;
     border: none;
     border-radius: 20px;
@@ -109,13 +109,13 @@ nav a {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(255, 105, 180, 0.7);
+    background: rgba(247, 227, 115, 0.7);
 }
 
 .conteudo {
     position: relative;
     text-align: center;
-    color: white;
+    color: #5c3904;
 }
 
 /* DENÚNCIA */
@@ -131,12 +131,12 @@ nav a {
 }
 
 .denuncia .texto h2 {
-    color: #ff69b4;
+    color: #ff9d09;
 }
 
 /* FOOTER */
 footer {
-    background: #ff69b4;
+    background: #ff9d09;
     color: white;
     text-align: center;
     padding: 20px;

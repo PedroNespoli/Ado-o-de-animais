@@ -1,40 +1,76 @@
-/* Fundo geral */
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #ffe6f0, #ffd6eb);
+/* RESET (tem que ficar no topo!) */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* BODY */
+body {
+    background: linear-gradient(to right, #fff5e6, #fff2d6);
     text-align: center;
 }
 
-/* Título principal */
-h1 {
-    color: #ff4da6;
-    margin-top: 30px;
+/* HEADER (igual ao primeiro) */
+header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 2px solid #ffd6e7;
 }
 
-/* Menu */
-nav {
-    margin: 15px 0;
+header h1 {
+    color: #ff9d09;
 }
 
+/* NAV NORMAL (sem virar botão) */
 nav a {
+    margin: 0 15px;
     text-decoration: none;
-    color: #9d0e56;
+    color: #555;
     font-weight: bold;
-    margin: 0 10px;
-    transition: 0.3s;
+    background: none;
+    padding: 0;
+    box-shadow: none;
 }
 
-nav a:hover {
-    color: #35051d;
+/* BOTÕES DO HEADER */
+.buttons a {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-/* Subtítulo */
+.login {
+    border: 2px solid #ff9d09;
+    color: #ff9d09;
+    background: none;
+}
+
+.signup {
+    background: #ff9d09;
+    color: white;
+}
+
+/* TÍTULOS */
+h1 {
+    color: #ff9d09;
+}
+
+.h12 {
+    margin-top: 20px;
+}
+
 h2 {
     margin-top: 20px;
 }
 
-/* Caixa principal (organiza tudo) */
+/* CONTAINER */
 .container {
     background: white;
     width: 300px;
@@ -44,43 +80,44 @@ h2 {
     box-shadow: 0 4px 15px rgba(255, 1, 128, 0.3);
 }
 
-/* Textos */
+/* TEXTOS */
 p {
     margin: 10px 0;
 }
 
-/* Botão/link "Enviar mensagem" */
-a {
+/* BOTÃO APENAS DENTRO DO CONTAINER */
+.container a {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 20px;
-    background: linear-gradient(45deg, #ff4da6, #ff80bf);
+    background: linear-gradient(45deg, #ffc74d, #f7c53d);
     color: white;
     text-decoration: none;
     border-radius: 25px;
     font-weight: bold;
     transition: 0.3s;
-    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.4);
+    box-shadow: 0 4px 10px rgba(255, 208, 105, 0.4);
 }
 
-a:hover {
+.container a:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 15px rgba(255, 105, 180, 0.6);
+    box-shadow: 0 6px 15px rgba(255, 203, 105, 0.6);
 }
 
-/* Linha separadora */
+/* LINHA */
 hr {
-    border: 1px solid #ec6767;
+    border: 1px solid #ec9867;
     width: 50%;
+    margin: 20px auto;
 }
 
+/* FOOTER */
 footer {
-    background: #ff69b4;
+    background: #ff9d09;
     color: white;
     text-align: center;
     padding: 20px;
-    bottom: 0;
     position: fixed;
     width: 100%;
-    
+    bottom: 0;
 }
