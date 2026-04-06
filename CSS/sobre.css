@@ -8,7 +8,7 @@
 
 /* BODY */
 body {
-    background: #fff5f9;
+    background: #fff5e6;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -21,7 +21,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    border-bottom: 2px solid #ffd6e7;
+    border-bottom: 2px solid #fff5e6;
 }
 
 header h1 {
@@ -82,7 +82,7 @@ body > h1 {
     padding: 12px 15px;
     border-radius: 10px;
     margin: 10px 0;
-    box-shadow: 0 2px 8px rgba(255, 157, 9, 0.2);
+    box-shadow: 0 2px 8px rgba(255, 203, 105, 0.6);
 }
 
 /* FOOTER */

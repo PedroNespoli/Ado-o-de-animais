@@ -12,21 +12,21 @@ body {
     text-align: center;
 }
 
-/* HEADER (igual ao primeiro) */
+/* HEADER */
 header {
     background: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    border-bottom: 2px solid #ffd6e7;
+    border-bottom: 2px solid #fdd4ae;
 }
 
 header h1 {
     color: #ff9d09;
 }
 
-/* NAV NORMAL (sem virar botão) */
+/* NAV NORMAL */
 nav a {
     margin: 0 15px;
     text-decoration: none;
@@ -77,7 +77,7 @@ h2 {
     margin: 30px auto;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(255, 1, 128, 0.3);
+    box-shadow: 0 4px 15px rgba(255, 153, 1, 0.3);
 }
 
 /* TEXTOS */

@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+}
+
+
+header {
+    background: white;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ff9f1c;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo span {
+    color: #6b46c1;
+}
+
+nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #ff9f1c;
+}
+
+.btn {
+    padding: 8px 18px;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+
+.btn-entrar {
+    background: transparent;
+    border: 2px solid #ff9f1c;
+    color: #ff9f1c;
+}
+
+.btn-cadastrar {
+    background: #ff9f1c;
+    color: white;
+}
+
+
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.caixa-amarela {
+    background: #fff7d1;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.caixa-amarela h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.caixa-amarela p {
+    font-size: 17px;
+    color: #555;
+}
+
+
+.login {
+    background: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.login h2 {
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+.form-login {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.form-login input {
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 260px;
+}
+
+.form-login input:focus {
+    border-color: #ff9f1c;
+    outline: none;
+}
+
+.form-login button {
+    padding: 12px 30px;
+    background: #ff9f1c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formulario {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 8px 25px rgba(255, 157, 9, 0.25);
+    text-align: center;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .form-login {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .form-login input, .form-login button {
+        width: 100%;
+        max-width: 320px;
+    }
+}

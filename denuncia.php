@@ -1,12 +1,12 @@
 <?php
-$mensagem = "";
+$msg = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nome = $_POST["nome"];
     $email = $_POST["email"];
-    $texto = $_POST["mensagem"];
+    $descricao = $_POST["descricao"];
 
-    $mensagem = "Mensagem enviada com sucesso! 🐾";
+    $msg = "Denúncia enviada com sucesso! 🐾 Obrigado por ajudar!";
 }
 ?>
 
@@ -14,8 +14,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Contato</title>
-    <link rel="stylesheet" href="CSS/enviar.css">
+    <title>Denúncia</title>
+    <link rel="stylesheet" href="CSS/denuncia.css">
 </head>
 
 <body>
@@ -40,19 +40,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <form method="POST" class="formulario">
 
-    <h2>Fale com a gente 💌</h2>
+    <h2>Denunciar maus-tratos 🐾</h2>
 
-    <?php if ($mensagem != ""): ?>
-        <p class="sucesso"><?= $mensagem ?></p>
+    <?php if ($msg != ""): ?>
+        <p class="sucesso"><?= $msg ?></p>
     <?php endif; ?>
 
     <input type="text" name="nome" placeholder="Seu nome" required>
 
     <input type="email" name="email" placeholder="Seu email" required>
 
-    <textarea name="mensagem" placeholder="Digite sua mensagem..." required></textarea>
+    <textarea name="descricao" placeholder="Descreva a situação..." required></textarea>
 
-    <button type="submit">Enviar mensagem</button>
+    <button type="submit">Enviar denúncia</button>
 
 </form>
 
