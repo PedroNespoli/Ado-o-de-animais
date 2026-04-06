@@ -125,13 +125,17 @@ nav a {
     gap: 40px;
 }
 
-.denuncia .imagem {
-   flex-direction: column;
-   justify-content: left;
-}
-
 .denuncia .texto h2 {
     color: #ff9d09;
+}
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff9d09;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
 }
 
 /* FOOTER */
