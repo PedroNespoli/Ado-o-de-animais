@@ -135,6 +135,17 @@ nav a:hover {
     cursor: pointer;
 }
 
+.formulario {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 8px 25px rgba(255, 157, 9, 0.25);
+    text-align: center;
+}
 
 @media (max-width: 600px) {
     .form-login {
