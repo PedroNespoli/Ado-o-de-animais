@@ -27,12 +27,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <a href="index.html">Home</a>
         <a href="sobre.html">Sobre</a>
         <a href="adoção.html">Adoção</a>
-        <a href="contato.php">Contato</a>
+        <a href="contato.html">Contato</a>
     </nav>
 
     <div class="buttons">
-        <a href="login.html" class="login">Entrar</a>
-        <a href="cadastro.html" class="signup">Cadastrar</a>
+        <a href="login.php" class="login">Entrar</a>
+        <a href="cadastro.php" class="signup">Cadastrar</a>
     </div>
 </header>
 
