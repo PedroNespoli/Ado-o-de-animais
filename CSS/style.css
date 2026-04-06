@@ -51,7 +51,7 @@ nav a {
 /* HERO */
 .hero {
     height: 70vh;
-    background: url(.) center/cover;
+    background: url(https://wallpapers.com/images/hd/traveling-baby-dog-with-goggles-tpw4knu2rhp7ok3w.jpg) center/cover;
     display: flex;
     align-items: center;
     padding-left: 80px;
@@ -91,7 +91,7 @@ nav a {
 
 .imagem {
     flex: 1;
-    background: url(.) center/cover;
+    background: url(https://wallpapers.com/images/high/group-of-labrador-baby-dogs-ocqlanz7dcekwgni.webp) center/cover;
     border-radius: 20px;
 }
 
@@ -99,7 +99,7 @@ nav a {
 .destaque {
     position: relative;
     height: 300px;
-    background: url() center/cover;
+    background: url(https://p4.wallpaperbetter.com/wallpaper/922/235/745/dog-hd-wallpaper-preview.jpg) center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
